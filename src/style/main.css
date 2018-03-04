@@ -13,4 +13,7 @@
     background-color: darkgrey;
 }
 
-
+.node{
+    position: absolute;
+    overflow: hidden;
+}
