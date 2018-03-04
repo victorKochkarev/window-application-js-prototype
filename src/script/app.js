@@ -9,6 +9,7 @@ app.init = function(){
 app.initUI = function () {
     let mainStage = document.getElementById("mainStage");
     app.ui.panelList = [];
+
     app.ui.panelList.push(new ToolPanel({
        domContainer: mainStage,
        size:{
@@ -19,7 +20,12 @@ app.initUI = function () {
            left:0,
            top:0
        },
-       title:"tools"
+       title:"tools",
+       toolList:[
+           new ToolItem({name:"Label"}),
+           new ToolItem({name:"Image"}),
+           new ToolItem({name:"Some Other Tool"})
+       ]
     }));
 
     app.ui.panelList.push(new Panel({
