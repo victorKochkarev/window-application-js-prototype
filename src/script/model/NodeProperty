@@ -1,0 +1,7 @@
+class NodeProperty{
+    constructor(options){
+        this.name = options.name;
+        this.value = options.value;
+        this.type = options.type
+    }
+}
