@@ -25,7 +25,7 @@ class Panel{
         });
         this.dom.title = document.createElement("div");
         this.dom.title.className = "panelHeaderTitle";
-        this.dom.panel.appendChild(this.dom.title);
+        this.dom.header.appendChild(this.dom.title);
         this.dom.panel.appendChild(this.dom.header);
     }
 
