@@ -22,7 +22,7 @@ app.initUI = function () {
        },
        title:"tools",
        toolList:[
-           new ToolItem({name:"Label"}),
+           new LabelToolItem(),
            new ToolItem({name:"Image"}),
            new ToolItem({name:"Some Other Tool"})
        ]
