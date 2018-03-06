@@ -8,8 +8,12 @@ class Environment{
         this.initUI();
     }
 
+    addPanel(panel){
+        this.ui.panelList.push(panel);
+    }
+
     initUI(){
-        this.ui.panelList.push(new ToolPanel({
+        this.addPanel(new ToolPanel({
             domContainer: this.mainContainer,
             size:{
                 width:250,
@@ -27,7 +31,7 @@ class Environment{
             ]
         }));
 
-        this.ui.panelList.push(new Panel({
+        this.addPanel(new Panel({
             domContainer: this.mainContainer,
             size:{
                 width:250,
