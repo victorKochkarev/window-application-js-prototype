@@ -15,10 +15,10 @@ class Environment{
     initUI(){
         this.addPanel(new ToolPanel({
             domContainer: this.mainContainer,
-            size:{
+            size:new Size({
                 width:250,
                 height:500
-            },
+            }),
             position:{
                 left:0,
                 top:0
@@ -33,10 +33,10 @@ class Environment{
 
         this.addPanel(new Panel({
             domContainer: this.mainContainer,
-            size:{
+            size:new Size({
                 width:250,
                 height:500
-            },
+            }),
             position:{
                 left:0,
                 top:500
