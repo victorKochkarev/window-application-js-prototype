@@ -19,10 +19,10 @@ class Environment{
                 width:250,
                 height:500
             }),
-            position:{
+            position:new Position({
                 left:0,
                 top:0
-            },
+            }),
             title:"tools",
             toolList:[
                 new LabelToolItem(),
@@ -37,10 +37,10 @@ class Environment{
                 width:250,
                 height:500
             }),
-            position:{
+            position:new Position({
                 left:0,
                 top:500
-            },
+            }),
             title:"properties"
         }));
     }
