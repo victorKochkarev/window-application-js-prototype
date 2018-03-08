@@ -1,0 +1,9 @@
+
+.workspace{
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    overflow: hidden;
+}

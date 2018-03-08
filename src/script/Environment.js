@@ -43,5 +43,13 @@ class Environment{
             }),
             title:"properties"
         }));
+
+        this.ui.workspace = new WorkSpace({
+            domContainer: this.mainContainer,
+            size: new Size({
+                width:300,
+                height:300
+            })
+        });
     }
 }
